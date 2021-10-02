@@ -1,0 +1,33 @@
+<style>
+  body {
+background-color: rgb(160, 160, 160);
+}
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #00978a;
+  color: rgb(225, 235, 233);
+  font-weight: 600;
+}
+
+</style>
+
+<div class="toolbar" role="banner">
+<img width="50" alt="dog logo"
+  src="https://images.vexels.com/media/users/3/227565/isolated/preview/f77e3012e7b4ee1436dd818c420acafe-logotipo-frontal-de-shephard-alem-n.png" />
+<span>Bienvenido</span>
+<div class="mat-spacer"></div>
+<a mat-button [routerLink]="'/home'">Inicio</a>
+<a mat-button [routerLink]="'/mascotas'">Registro de Mascota</a>
+<a mat-button [routerLink]="'/registros'">Registra tu Reserva</a> 
+<a mat-button [routerLink]="'/about'">Nosotros</a> 
+</div>  
+<mat-toolbar-row>
+<span>Second Line</span>
+</mat-toolbar-row>
+<router-outlet></router-outlet>

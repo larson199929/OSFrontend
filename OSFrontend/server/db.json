@@ -1,0 +1,69 @@
+{
+  "students": [
+    {
+      "id": 2,
+      "name": "Juan Perez",
+      "age": 35,
+      "address": "Algún Lugar"
+    },
+    {
+      "id": 3,
+      "name": "Carlos Roque",
+      "age": 45,
+      "address": "Algún Lugar 2"
+    },
+    {
+      "id": 4,
+      "name": "Pancho Perez",
+      "age": 25,
+      "address": "Un Lugar 123"
+    },
+    {
+      "id": 5,
+      "name": "Juan Oliva",
+      "age": 38,
+      "address": "Algún Lugar 3"
+    },
+    {
+      "name": "José Rojas",
+      "age": 25,
+      "address": "No lo sé 123",
+      "id": 7
+    }
+  ],
+  "Skills": [
+    {
+      "id": 1,
+      "name": "Backend Developer"
+    },
+    {
+      "id": 2,
+      "name": "Frontend Developer"
+    },
+    {
+      "id": 3,
+      "name": "Mobile App Developer"
+    },
+    {
+      "id": 4,
+      "name": "Game Developer"
+    }
+  ],
+  "competences": [
+    {
+      "id": 3,
+      "studentId": 2,
+      "skillId": 3
+    },
+    {
+      "id": 4,
+      "studentId": 3,
+      "skillId": 4
+    },
+    {
+      "id": 5,
+      "studentId": 4,
+      "skillId": 4
+    }
+  ]
+}
